@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff
+}
+
+body {
+    background: #000;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.8em;
+}
+
+.inputs {
+    margin: 0 auto 20px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    display: flex;   
+    justify-content: center;   
+}
+
+form {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;   
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+label { 
+    font-size: 1.8em;
+    margin: 5px;          
+    text-align: left;        
+}
+
+input, select {  
+    margin: 5px; 
+    background: crimson;  
+    text-align: center;
+}
+
+.button {
+    margin: 5px; 
+    width: 80px;
+    height: 40px;
+    background: crimson;  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*
+table {
+    width: 80%;
+    margin: 10px auto;
+}
+
+table, th, td {
+    
+}
+*/
+
+.display {
+    font: 14px Verdana;
+    margin-left: 35%;
+    margin-top: 30px;
+}
+
+table tr td {
+    width: 140px;    
+    text-align: center;
+}
