@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamerOrganizer</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <h1>Lista de Jogos</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</li></a>
+            <li><a href="entrada.html">Entrada</li></a>
+            <li><a href="games.html">Listagem</li></a>            
+        </ul>
+    </nav>
+    <div class="display">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Gênero</th>
+                    <th>Status</th>
+                    <th>Detalhes</th>
+                </tr>
+            </thead>
+            <tbody id="lista-jogos">
+
+            </tbody>
+        </table>
+        <br>
+        <div>
+            <button class="button" type="submit">Adicionar Jogo</button>
+            <button class="button" type="submit">Editar Jogo</button>
+            <button class="button" type="submit">Excluir Jogo</button>
+            <button class="button" id="limpar">Limpar</button>
+        </div>
+    </div>  
+    <script src="../js/listagem.js"></script> 
+</body>

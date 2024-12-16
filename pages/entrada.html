@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamerOrganizer</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <h1>GamerOrganizer</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</li></a>
+            <li><a href="games.html">Listagem</li></a>
+        </ul>
+    </nav>
+    <div class="inputs">
+        <form id="form-jogo">
+            <label for="titulo">Título</label>
+            <input
+                type="text" name="txtNome" id="titulo"
+                placeholder="Insira o nome do jogo" required>
+                <br>   
+            <label for="genero">Gênero</label>
+            <input type="text" id="genero" required>    
+            <br>     
+            <label>Status</label>
+            <select id="status" required>
+                <option disabled selected>Escolha</option>
+                <option>Testar</option>
+                <option>Comprar</option>
+                <option>Desejo Jogar</option>
+                <option>Jogando</option>
+                <option>Zerado</option>
+            </select>
+            <br>
+            <label>Possui na biblioteca ?</label>
+            <select name="" id="">
+                <option value="">Sim</option>
+                <option value="">Não</option>
+            </select>
+            <br>
+            <label>Detalhes</label>
+            <textarea name="" id="detalhes">
+
+            </textarea>
+            <button class="button" type="submit">Salvar</button> 
+            <a class="button" href="games.html">Ver lista de Jogos</a>                    
+        </form>     
+        <br>   
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
